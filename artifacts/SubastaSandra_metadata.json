@@ -1,0 +1,189 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "maxAddr",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "maxPrice",
+						"type": "uint256"
+					}
+				],
+				"name": "EndSubasta",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "addrBidder",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "price",
+						"type": "uint256"
+					}
+				],
+				"name": "NewBidCreated",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balance",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "bidderAddr",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "price",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "balance",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "bid",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "endRefund",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getWinner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "partialRefund",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "showBids",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "address",
+								"name": "bidderAddr",
+								"type": "address"
+							},
+							{
+								"internalType": "uint256",
+								"name": "price",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct SubastaSandra.Bidder[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SubastaSandra.sol": "SubastaSandra"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SubastaSandra.sol": {
+			"keccak256": "0x0cd64bd0fb4fe3fbc490a3729bc9e7fae85ec0872d7a496f4ac1be952027170b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a101c8158cbbd73276a8d61683bff2633fdca1e5530c6e77b0583d7a0afccad9",
+				"dweb:/ipfs/QmbzZV1FS8rehzpbKVWj9sfvYsqsoXXK4ca6LAmh6JrPH3"
+			]
+		}
+	},
+	"version": 1
+}

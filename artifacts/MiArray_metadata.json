@@ -1,0 +1,102 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "listSendersAndValues",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "address",
+								"name": "sender",
+								"type": "address"
+							},
+							{
+								"internalType": "uint256",
+								"name": "value",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct MiArray.SenderValue[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "senderValues",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "storeSenderValue",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"MiArray.sol": "MiArray"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"MiArray.sol": {
+			"keccak256": "0x507a75df6bd291004a95e05c22aa21628c051381d542ba6fd1f07a57ac3fdcda",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://190a4a96602a0616d35330900a63bfb6260da94ecd09c6ce28d2973ee32bc954",
+				"dweb:/ipfs/QmP7571ENi2YnJWr4NnE3MyqjeNZRnE8CH7sNkxXsa89QR"
+			]
+		}
+	},
+	"version": 1
+}

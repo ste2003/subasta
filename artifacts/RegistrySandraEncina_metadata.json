@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getMensajeSandra",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_mensaje",
+						"type": "string"
+					}
+				],
+				"name": "setMensajeSandra",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SandraEncina.sol": "RegistrySandraEncina"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SandraEncina.sol": {
+			"keccak256": "0xda8faf8df4e3c633111532f3e96f84518a993679da0c4d8bc044c08c26cb932d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://07971fbc72aef6fdaa51006def12228eb0c2b575a111eea9aab7a7a465f1a732",
+				"dweb:/ipfs/Qmc6Uaykpz1wMUrweHmFvoLn9jXfPQWdYeGyBeNQhiiP25"
+			]
+		}
+	},
+	"version": 1
+}
